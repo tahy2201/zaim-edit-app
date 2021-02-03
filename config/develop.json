@@ -1,0 +1,13 @@
+{
+    "zaim" : {
+        "consumerKey": "xxxxxxxxxxxxxxxxxxxxxxx",
+        "consumerSecret": "xxxxxxxxxxxxxxxxxxxxxxx",
+        "accessToken": "xxxxxxxxxxxxxxxxxxxxxxx",
+        "accessTokenSecret": "xxxxxxxxxxxxxxxxxxxxxxx",
+        "callback": "http://localhost:8000"
+    },
+    "rpoint" : {
+        "user": "xxxxxxxxxxxxxxxxxxxxxxx",
+        "pass": "xxxxxxxxxxxxxxxxxxxxxxx"
+    }
+}

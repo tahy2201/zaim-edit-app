@@ -1,0 +1,15 @@
+insert into zaim_genre values(2,'セブン-イレブン　横浜鶴見豊岡町', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(3,'セブン-イレブン　横浜鶴見駅西', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(4,'セブン-イレブン　渋谷道玄坂１丁目', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(5,'ダイバーシティ東京プラザ', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(6,'ダイワロイヤルホテル', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(7,'ハックドラッグ　鶴見店', 102, '消耗品', 10201, '日用雑貨', now(), now());
+insert into zaim_genre values(8,'ファミリーマート　はまりん横浜駅ミニ', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(9,'ファミリーマート　渋谷マークシティ', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(10,'ラゾーナ川崎プラザ', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(11,'ローソン　川崎町川内', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(12,'ローソン　鶴見豊岡通', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(13,'京急ストア　鶴見西店', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(14,'共同配達ガスト　北寺尾店', 101, '食料品', 10101, '食費', now(), now());
+insert into zaim_genre values(15,'焼魚食堂', 101, '昼ご飯', 10105, '食費', now(), now());
+insert into zaim_genre values(16,'京急ストア　鶴見西店', 101, '食料品', 10101, '食費', now(), now());
