@@ -36,8 +36,8 @@ async function main() {
         if(rpay.type == 'use') {
             try {
                 let zGenre:ZaimGenre = getDefaultGenre();
-                if(rpay.place != null) {
-                    zGenre = await getGenre(!rpay.place ? '' :rpay.place).then()
+                if(!!rpay.place) {
+                    zGenre = await getGenre(rpay.place).then()
                 }
                 const moneyId = await zaimService.createRpayPayment(rpay, zGenre).then();
                 // idがundfinedになることはない。コンパイラ対策
