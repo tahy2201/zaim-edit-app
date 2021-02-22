@@ -2,11 +2,7 @@ const env = process.env
 
 export default {
    type: 'postgres',
-   host: env.DB_HOST,
-   port: 5432,
-   username: env.DB_USER,
-   password: env.DB_PASS,
-   database: env.DATABASE,
+   url: env.DATABASE_URL,
    logging: false,
    extra: {
       ssl: {
