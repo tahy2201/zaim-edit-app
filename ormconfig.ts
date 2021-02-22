@@ -1,12 +1,18 @@
-{
-   "type": "mysql",
-   "host": "localhost",
-   "port": 3306,
-   "username": "docker",
-   "password": "docker",
-   "database": "zaim_base",
-   "synchronize": true,
-   "logging": false,
+const env = process.env
+
+export default {
+   type: 'postgres',
+   host: env.DB_HOST,
+   port: 5432,
+   username: env.DB_USER,
+   password: env.DB_PASS,
+   database: env.DATABASE,
+   logging: false,
+   extra: {
+      ssl: {
+        rejectUnauthorized: false
+      }
+   },
    "entities": [
       "src/entity/**/*.ts"
    ],

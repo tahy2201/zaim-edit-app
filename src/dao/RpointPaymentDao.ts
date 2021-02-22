@@ -12,9 +12,13 @@ export async function setPayment(payments:RpointPayment[]) {
            await rPaymentRepository.insert(payments[i]);
            updCnt += 1;
         } catch(e) {
+            // キー重複なら続行
             if(e.code == 'ER_DUP_ENTRY') {
-                // キー重複なら続行
+                // MySql
                 console.log(e.sqlMessage);
+            } else if (e.code == '23505') {
+                // Postgresql
+                console.log(e.detail);
             } else {
                 throw e;
             }

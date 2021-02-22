@@ -28,6 +28,7 @@
     "mysql": "^2.18.1",
     "oauth": "^0.9.15",
     "oauth-1.0a": "^2.2.6",
+    "pg": "^8.5.1",
     "puppeteer": "^5.5.0",
     "readline-sync": "^1.4.10",
     "reflect-metadata": "^0.1.13",
@@ -40,7 +41,8 @@
     "zaim": "^2.2.0"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.22"
+    "@types/cheerio": "^0.22.22",
+    "@types/pg": "^7.14.9"
   },
   "description": ""
 }
